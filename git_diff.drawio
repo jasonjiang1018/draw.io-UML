@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-23T12:05:31.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="wfxy-8bUigYFRbxrYU99" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-24T01:22:14.624Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="BmJ5hwbjZwlZQW6HDi8G" version="24.0.2" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1420" dy="732" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -13,14 +13,14 @@
         <mxCell id="22feBNnHgj63h2i7hsxX-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="15" target="21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="检查SuperApp根目录宿主代码路径列表文件是否存在" style="fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;gradientColor=#ffd966;" parent="1" vertex="1">
+        <mxCell id="15" value="检查SuperApp根目录宿主代码路径清单文件是否存在" style="fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;gradientColor=#ffd966;" parent="1" vertex="1">
           <mxGeometry x="149" y="159" width="110" height="71" as="geometry" />
         </mxCell>
         <mxCell id="22feBNnHgj63h2i7hsxX-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="16" target="22feBNnHgj63h2i7hsxX-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="16" value="读取宿主代码路径列表文件" style="whiteSpace=wrap;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="149" y="336" width="110" height="50" as="geometry" />
+        <mxCell id="16" value="读取宿主代码路径列表" style="whiteSpace=wrap;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="149" y="371" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="22feBNnHgj63h2i7hsxX-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="21" target="16">
           <mxGeometry relative="1" as="geometry" />
@@ -39,7 +39,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="21" value="文件是否存在" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="1" vertex="1">
-          <mxGeometry x="164" y="260" width="80" height="40" as="geometry" />
+          <mxGeometry x="164" y="278" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22feBNnHgj63h2i7hsxX-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22feBNnHgj63h2i7hsxX-52" target="38">
           <mxGeometry relative="1" as="geometry">
@@ -59,19 +59,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22feBNnHgj63h2i7hsxX-55" value="调用git diff submodule_config" style="whiteSpace=wrap;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="149" y="421" width="110" height="50" as="geometry" />
+          <mxGeometry x="149" y="477" width="110" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="22feBNnHgj63h2i7hsxX-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22feBNnHgj63h2i7hsxX-57" target="22feBNnHgj63h2i7hsxX-61">
+        <mxCell id="22feBNnHgj63h2i7hsxX-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22feBNnHgj63h2i7hsxX-57" target="22feBNnHgj63h2i7hsxX-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="22feBNnHgj63h2i7hsxX-57" value="获取md、bigData等子仓tag差异列表" style="whiteSpace=wrap;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="149" y="508" width="110" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="22feBNnHgj63h2i7hsxX-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="22feBNnHgj63h2i7hsxX-61" target="22feBNnHgj63h2i7hsxX-66">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="22feBNnHgj63h2i7hsxX-61" value="对SuperApp和有差异的子仓调用git diff" style="whiteSpace=wrap;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="149" y="600" width="110" height="50" as="geometry" />
+          <mxGeometry x="149" y="585" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="22feBNnHgj63h2i7hsxX-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="22feBNnHgj63h2i7hsxX-66" target="22feBNnHgj63h2i7hsxX-69">
           <mxGeometry relative="1" as="geometry" />
@@ -94,7 +88,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="22feBNnHgj63h2i7hsxX-70" value="路径是否相同" style="rhombus;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
-          <mxGeometry x="395" y="495" width="80" height="40" as="geometry" />
+          <mxGeometry x="395" y="492" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="22feBNnHgj63h2i7hsxX-71" value="保存变更文件路径" style="whiteSpace=wrap;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="380" y="570" width="110" height="50" as="geometry" />
