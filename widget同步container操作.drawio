@@ -38,7 +38,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="71" value="同步container操作" style="rounded=1;fontStyle=1;fillColor=#FFD966;strokeColor=none" parent="1" vertex="1">
-          <mxGeometry x="-320" y="-10" width="150" height="30" as="geometry" />
+          <mxGeometry x="-220" y="-40" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1cmuNa6uKXrp0ozcfd2a-91" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
           <mxGeometry x="210" y="205" width="10" height="40" as="geometry" />
@@ -80,7 +80,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1cmuNa6uKXrp0ozcfd2a-104" value="&lt;div&gt;onDataChanged(int pageType)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.248;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.101;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+        <mxCell id="1cmuNa6uKXrp0ozcfd2a-104" value="&lt;div&gt;onDataChanged(int pageType, IitemInfo)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0.248;exitY=0.538;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.101;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.0034" relative="1" as="geometry">
             <mxPoint x="440.3600000000001" y="439.24" as="sourcePoint" />
             <mxPoint x="209.56999999999994" y="439.24" as="targetPoint" />
@@ -298,15 +298,15 @@
         <mxCell id="1cmuNa6uKXrp0ozcfd2a-178" value="syncWidgetChanged流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1020" y="15" width="175" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="1cmuNa6uKXrp0ozcfd2a-179" value="从数据库重新加载widget" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="955" y="780" width="120" height="60" as="geometry" />
+        <mxCell id="1cmuNa6uKXrp0ozcfd2a-179" value="转换处理并从数据库重新加载widget" style="whiteSpace=wrap;html=1;fillColor=#ffffc0;strokeColor=#ff0000;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="955" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1cmuNa6uKXrp0ozcfd2a-186" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="1002" y="891" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1cmuNa6uKXrp0ozcfd2a-188" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1017" y="841" as="sourcePoint" />
+            <mxPoint x="1017" y="860" as="sourcePoint" />
             <mxPoint x="1017" y="891" as="targetPoint" />
           </mxGeometry>
         </mxCell>
